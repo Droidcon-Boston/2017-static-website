@@ -1,0 +1,101 @@
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .slider-hom{height:inherit}
+    /*.spon-1{    width: 50%;    float: left;}*/
+    .speaker-bg {    background: url(../img/glitch_big.png) 130% 115% no-repeat;    background-position: 0 -4px;    background-size: 135%;    /* background-position: initial; */
+    background-position: -119px 78px;}
+    .spons-1 img{width: 22% !important;    float: left;}
+    .Silverspon{}
+    .Silverspon img{    width: 200px;}
+    
+    
+     
+     
+} 
+@media screen and (max-width:991px) and (min-width: 320px){
+    body{overflow-x:hidden;}
+    .map-cons img{height:inherit;}
+    .ticket-list {   width: 100%;    margin: 50px auto;}
+    .logo{text-align:center;}
+    .logo img{    display: inline-block;}
+    header{  /*  height: 73px; */ }
+    .menu-list {    position: absolute;    top: -67px;    left: -13px; width:100%;}
+    .menu-list ul.menu-opned{left: 0%; -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+        bottom: 0;
+    }
+    .menu-list ul li{list-style: none;
+    padding: 0px 0;}
+    .menu-list ul li a{    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #263238;
+    font-family: "Roboto Mono",monospace;
+    height: 70px;
+    padding: 10px 33px;
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+    width: 100%;
+    position: relative;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;}
+    .menu-list ul li a:hover{    color: #00FAAE;     background-color: #3B4468; border-bottom: 1px solid transparent;}
+    .slider-contne h5 {    font-size: 2em;    }
+     .left-about {    text-align: center;    margin: 0 0 28px 0;}
+     .place-details {    padding: 5px;}
+     .Revere-Hotel h3 {    font-size: 2em;}
+     .Revere-Hotel-box {    width: 100%;}
+     .event-main h3 {    font-size: 2em;}
+     .clicn-bar-img{position: relative;}
+     .clicn-bar-img img {    width: 88%;}
+     .footer-form input[type="submit"]{        padding: 5px 5px;   width: 100%;     }
+     
+}
+
+@media screen and (max-width:425px) and (min-width: 320px){
+    .slider-hom{    background-position: 0 -8%;}
+    .speaker-bg{background:none;}
+    
+}
+
+@media screen and (max-width:767px) and (min-width: 425px){
+    
+    .slider-hom{
+            background-position: 0 -8%;
+    }
+    
+    
+}
+
+@media screen and (max-width:991px) and (min-width: 768px){
+    
+    .slider-hom{    background-position: 0 -15%;}
+    
+}
+
+
+@media screen and (max-width:767px) and (min-width: 320px){
+    
+    .speaker-bg{background:none;}
+    
+}
+ 
+ 
+ 
+ 
+ 
+ header {
+    position: fixed;
+    background-color: #333B5E;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000000;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    width: 100%;
+    top: 0px;
+}
